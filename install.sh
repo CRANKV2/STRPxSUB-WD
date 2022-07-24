@@ -45,7 +45,7 @@ ui_print " ━━━━━━━━━━━━━━━━━━━━━━━
 ui_print ""
   ui_print "▌UNIVERSAL Module For All Devices & All Soc's ▌"
   ui_print " "
-  ui_print "▌VERSION ▰ 0.3"
+  ui_print "▌VERSION ▰ 0.4"
   ui_print "▌CODENAME ▰ STRP x ULTRA x BATTERY"
   ui_print "▌DEVICE INFORMATIONS..:"
   sleep 2

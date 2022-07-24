@@ -1,7 +1,10 @@
-# About Module..
-- Increase Battery Life By 40% With Compromising Not More Than 25% Of Overall Performance!
--------
-# Initial Release 0.3
+# Update 0.4
+- Added Script to Manually Re-Enable GAPPS!
+- Use 'su -c EGAPPS' To Re-Enable Gapps after Boot if u face Problems from it.
+- Many adjustments made since test build.
+- minor bug fixed from executing.
+--------
+# Test Build 0.3
 - Added a Bunch of Tweaks they Work together.
 - To get the Best Battery Capacity and Durability.
 --------
