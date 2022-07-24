@@ -1,10 +1,10 @@
 #Custom Props By CRANKV2#
 #Add credits if u want to use it for ur own WORK!#
 #Dont steal Shit be a Kind Man!#
-#Battery Mods
+#Battery Props
 persist.sys.shutdown.mode=hibernate
 persist.radio.add_power_save=0
-wifi.supplicant_scan_interval=225
+wifi.supplicant_scan_interval=180
 ro.ril.disable.power.collapse=1
 ro.config.hw_fast_dormancy=1
 ro.semc.enable.fast_dormancy=true
@@ -27,15 +27,12 @@ dalvik.vm.verify-bytecode=true
 dalvik.vm.jmiopts=forcecopy
 debug.kill_allocating_task=0
 ro.setupwizard.mode=DISABLED
-dalvik.vm.heaputilization=0.25
-dalvik.vm.heaptargetutilization=0.75
 
 #Disable USB Debugging PopUp
 persist.adb.notify=0
 
 #Allow to free more ram
 persist.sys.purgeable_assets=1
-ro.config.low_ram=enable
 
 #Smoother video watching
 video.accelerate.hw=1
@@ -45,7 +42,6 @@ media.stagefright.enable-scan=false
 media.stagefright.enable-http=true
 
 #UI Tweaks
-persist.sys.ui.hw=1
 view.scroll_friction=10
 debug.composition.type=gpu
 debug.performance.tuning=1
@@ -54,7 +50,7 @@ debug.performance.tuning=1
 debug.sf.ddms=0
 ro.warmboot.capability=1
 logcat.live=disable
-
-#min/max cpu in core control
-ro.vendor.qti.core_ctl_min_cpu=4 
-ro.vendor.qti.core_ctl_max_cpu=4 
+ro.miui.backdrop_sampling_enabled=true
+ro.surface_flinger.supports_background_blur=1
+persist.power.useautobrightadj=true
+ro.miui.has_real_blur=1

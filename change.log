@@ -1,3 +1,11 @@
+# Update 0.6
+- Removed persist.sys.ui.hw
+- Minor changes into system.prop
+- Removed cpu stuff in Service.sh & implemented into Script file.
+- Fixed conflicting props from STRP Family.
+- Fixed MIUI Blur Effect.
+- Added some extra usefull battery saving misc props.
+-------
 # Update 0.5
 - Removed some Gapps related stuff what arent necessary.
 - Reworked BAT Script >>
