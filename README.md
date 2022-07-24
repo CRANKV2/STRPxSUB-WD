@@ -15,10 +15,13 @@
 
 --------
 
-
  <h1 align="center"><b> UNIVERSAL </b></h1> 
 
 ## Requirements:
 - Magisk 24.3+
 - Latest Busybox
 - Android 9.0+
+
+# Termux Command To Fix GAPPS
+- su -c EGAPPS
+
