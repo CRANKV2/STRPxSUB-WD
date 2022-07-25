@@ -1,9 +1,9 @@
 id=STRPxULTRAxBATTERY
 name=𝙎𝙏𝙍𝙋 𝙭 𝙐𝙇𝙏𝙍𝘼 𝙭 𝘽𝘼𝙏𝙏𝙀𝙍𝙔
 author=CRANKV2
-version=0.6
-versionCode=25
-description=▌Increase Battery Life By 40% With Compromising Not More Than 25% Of Overall Performance!▌
+version=0.7
+versionCode=27
+description=▌Increase Battery Life By 40% With Compromising Not More Than 25% Of Overall Performance!▌su -c DGAPPS > Disable GAPPS ▌su -c EGAPPS > Enable GAPPS ▌
 support=https://t.me/AndroidRootModulesCommunity
 minMagisk=24300
 updateJson=https://raw.githubusercontent.com/CRANKV2/STRPxULTRAxBATTERY/main/module.json

@@ -45,7 +45,7 @@ ui_print " ━━━━━━━━━━━━━━━━━━━━━━━
 ui_print ""
   ui_print "▌UNIVERSAL Module For All Devices & All Soc's ▌"
   ui_print " "
-  ui_print "▌VERSION ▰ 0.6"
+  ui_print "▌VERSION ▰ 0.7"
   ui_print "▌CODENAME ▰ STRP x ULTRA x BATTERY"
   ui_print "▌DEVICE INFORMATIONS..:"
   sleep 2
@@ -68,7 +68,14 @@ ui_print " ━━━━━━━━━━━━━━━━━━━━━━━
   ui_print "▌Ultra Battery Mode Will Execute Itself After Reboot!"
    ui_print ""
    ui_print "▌Just Wait For Toast Popping Up!"
-  sleep 0.5
+   ui_print ""
+   ui_print ""
+   ui_print "▌GAPPS Doze Termux Command! ▌"
+   ui_print "▌su -c EGAPPS > Enable GAPPS"
+   sleep 1
+   ui_print ""
+   ui_print "▌su -c DGAPPS > Disable GAPPS"
+   ui_print ""
 ui_print " ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 sleep 4
 ui_print " "

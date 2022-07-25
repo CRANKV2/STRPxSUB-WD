@@ -1,3 +1,18 @@
+# UPDATE v0.7
+- Completely Reworked BAT Script..
+- Removed GAPPS - Added 2 Scripts to Disable or Enable GAPPS Manually!
+- su -c DGAPPS > Disable GAPPS!
+- su -c EGAPPS > Enable GAPPS!
+- Reworked All Props to avoid device getting Hot 🔥 
+- Changed CPU Min. & Max. Freq!
+- i/o scheduler tweaks adjusted
+- last 4 cpus going offline after reaching lower then 20% battery.
+- Enabled Core Control (core_ctl)
+- removed nr requests on i/o tweaks (not working on most devices..)
+- gov changed to sched. 
+- changed up and down rate limit.
+- minor fixes and adjustments
+--------
 # Update v0.6 HOTFIX
 - Script not Executed Correctly / Fixed
 -------
