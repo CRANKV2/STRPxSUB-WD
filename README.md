@@ -22,6 +22,13 @@
 - Latest Busybox
 - Android 9.0+
 
-# Termux Command To Fix GAPPS
+# Termux Command
+-------
+### ENABLE GAPPS
 - su -c EGAPPS
+-------
+### DISABLE GAPPS
+- su -c DGAPPS
+
+
 
