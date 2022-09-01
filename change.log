@@ -1,8 +1,15 @@
+# Update v1.0 Stable
+- Changed serveral Tweaks for better Battery backup
+- Added serveral doze features Applying at boot
+- changed some tweaks for better stability and without loosing ui smoothness
+- now u get a smooth ui with a good battery backup
+- added several new props tested by myself help last battery longer without losing much performance
+- it is recommended changin refresh rate to 60hz to get most out of the module
+- sure u can take refresh rate higher this wont make a problem, but u battery will drain faster
+------
 # Update v0.7 HOTFIX
 - Fixed Enable & Disable GAPPS Script now working!
 - Added new experimental Notification Message for GAPPS Enable & Disable Script.
--------
-# UPDATE v0.7
 - Completely Reworked BAT Script..
 - Removed GAPPS - Added 2 Scripts to Disable or Enable GAPPS Manually!
 - su -c DGAPPS > Disable GAPPS!
