@@ -1,3 +1,19 @@
+# Update v1.1
+- Fixed GPS Issue (Gps no more worked)
+- Fixed Google Play issue (GPlay no more worked)
+- Fixed GPay issue (GPay no more worked)
+- Fixed Carrier Network issue on some roms
+- Enabled Dalv. hyper & multi
+- Changed wifi scan interval to 10min.
+- Removed smoother Scrolling since its useless on battery mode.
+- Disabling Logcat
+- Enabling Quickpower on (not working on every rom)
+- Disable Auto Error Report and Profiler
+- Renice system related processes before enabling tweaks
+- Fixed FSTrim (typo in code, never mentioned lol)
+- Clean RAM before enabling Profile
+- Several bugs fixed and Improvments made
+-------
 # Update v1.0 Stable
 - Changed serveral Tweaks for better Battery backup
 - Added serveral doze features Applying at boot
