@@ -1,3 +1,43 @@
+## v2.0 - Long Awaited !
+
+Because your battery deserves the 'ULTRA' treatment... with a side of giggles!
+
+- Battery menu: ULTRA BATTERY profile, GApps control
+- CPU governor adjustment
+- Screen timeout customization
+- Adaptive brightness toggle
+- Wakelock timeout adjustment
+- Auto-sync enable/disable
+- Auto-sleep timeout adjustment
+- Auto-sleep PPO timeout modification
+- Display sleep timeout adjustment
+- Wake on charge toggle
+- WiFi scan interval adjustment
+- Improved UI, informative messages
+- Bug fixes, performance improvements
+- New: Battery optimization suggestions
+- Enhanced battery menu layout
+- Customizable presets for screen timeout
+- Ambient light-based automatic brightness toggle
+- Advanced CPU governor settings
+- Optimized wakelock management
+- Smart auto-sync based on usage patterns
+- Streamlined auto-sleep timeout settings
+- Dynamic display sleep timeout adjustment
+- Power-saving mode for maximum battery life
+- Optimized WiFi scan interval
+- Improved stability, overall performance
+- Comprehensive user guide included
+---------
+# v1.2 Stable Build
+- Completly reworked Battery Saving Script
+- Reworked .log file stored inside /sdcard/Android/
+- Many new usefull Powersaving related Tweaks added & reworked
+- Removed Miui blur enabler due to issues on miui devices
+- Adjusted main tweaks to get most out of your Battery
+- Many bugs fixed and Improvments made
+- Happy Flashing ⚡️
+-------
 # UPDATE v1.1 (115)
 - Fixed / added back miui Blur!
 ------
