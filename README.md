@@ -26,10 +26,14 @@
 # Termux Command
 -------
 - Open Menu
-- `su -c SUB`
+
+``` su -c SUB ```
 
 - Open Help Menu
-- `su -c SUB -h` `su -c SUB --help`
+
+``` su -c SUB -h ```
+``` su -c SUB --help ```
+
 ------
 More infos coming soon!
 
