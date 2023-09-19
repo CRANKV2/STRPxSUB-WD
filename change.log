@@ -1,3 +1,35 @@
+### v2.2 - Power Unleashed!
+- Added battery management feature:
+- The module now monitors the battery status in real-time.
+- If the battery percentage falls below 58% and the device is not charging, it will enable the Battery Profile to save power.
+- If the battery is both under 58% and charging, the module will disable the Battery Profile to ensure optimal charging.
+- No action will be taken if the battery is above 58% or the device is not charging.
+- Complete rework of the battery-saving script
+- Enhanced .log file now neatly stored in module directory
+- Introducing a slew of new and useful power-saving tweaks
+- Bid farewell to Miui blur issues; it's out of the mix
+- Fine-tuned the core tweaks for maximum battery gains
+- Added the ability to enable or disable profiles on boot inside the menu
+- Reworked Quick command usage with SUB -h (help) menu
+- Help menu now Provide device information for easy troubleshooting
+- Many bugs squashed, and overall improvements aplenty
+- Brand new battery optimizations unleashed
+- Overhauled battery menu layout for a fresh look
+- Customize screen timeout with ease
+- Ambient light-based automatic brightness controls
+- Advanced CPU governor settings for performance tweaking
+- Smarter wakelock management for efficiency
+- Intuitive auto-sync based on usage patterns
+- Streamlined auto-sleep timeout settings
+- Dynamic display sleep timeout adjustment
+- Ready to flash with a rejuvenated spirit ⚡️
+------
+### v2.1 - The Revamp!
+- Power-saving mode for extending battery life
+- Optimized WiFi scan intervals for efficiency
+- Enhanced overall stability and performance
+- Comprehensive user guide for easy reference
+------
 ## v2.0 - Long Awaited !
 
 Because your battery deserves the 'ULTRA' treatment... with a side of giggles!
