@@ -4,6 +4,11 @@
 - If the battery percentage falls below 20% and the device is not charging, it will enable the Battery Profile to save power.
 - If the battery is both under 20% and charging, the module will disable the Battery Profile to ensure optimal charging.
 - No action will be taken if the battery is above 20% or the device is not charging.
+------
+- Added a menu feature (FHA) for freezing or force closing power-hungry apps with user-defined resource thresholds and app types.
+- Users can now choose between freezing or force closing apps, specify a resource usage threshold, and select the type of apps (user, system, or both) to target.
+- The processes are displayed as PID and their numbers before taking action on power-hungry apps.
+------
 - Complete rework of the battery-saving script
 - Enhanced .log file now neatly stored in module directory
 - Introducing a slew of new and useful power-saving tweaks
