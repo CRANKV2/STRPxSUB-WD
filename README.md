@@ -1,6 +1,6 @@
  <p align="center"><a href="https://t.me/AndroidRootModulesCommunity"><img src="https://i.imgur.com/tGAF9Qp.jpg" width="500"></a></p>  
  <h1 align="center"><b> 𝙎𝙏𝙍𝙋 𝙭 𝙐𝙇𝙏𝙍𝘼 𝙭 𝘽𝘼𝙏𝙏𝙀𝙍𝙔 </b></h1> 
- <h4 align="center">Increase Battery Life By 40% With Compromising Not More Than 25% Of Overall Performance!</h4>
+ <h4 align="center">Unleash Your Device's True Potential – It's Not Just a Battery Saver, It's a Powerhouse!🔥</h4>
 
  <a href="https://t.me/AndroidRootModulesCommunity"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
 
@@ -20,7 +20,7 @@
 
 ## Overview
 
-STRP x ULTRA x BATTERY is a powerful module designed to help you maximize the battery life of your Android device. With a suite of features and optimizations, this module ensures that your device runs efficiently while conserving power.
+<h4 align="center">STRP x ULTRA x BATTERY is a powerful module designed to help you maximize the battery life of your Android device. With a suite of features and optimizations, this module ensures that your device runs efficiently while conserving power.</h4>
 
 ---
 
