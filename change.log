@@ -1,13 +1,73 @@
-### v2.2 - Power Unleashed!
+### `v2.2` - Power Unleashed!
 - Added battery management feature:
-- The module now monitors the battery status in real-time.
-- If the battery percentage falls below 20% and the device is not charging, it will enable the Battery Profile to save power.
-- If the battery is both under 20% and charging, the module will disable the Battery Profile to ensure optimal charging.
-- No action will be taken if the battery is above 20% or the device is not charging.
+- The module now monitors the battery status in `Real-time`
+- If the battery percentage falls below `20%` and the device is not charging, it will enable the Battery Profile to save power.
+- If the battery is both under `20%` and charging, the module will disable the Battery Profile to ensure optimal charging.
+- No action will be taken if the battery is above `20%` or the device is not charging.
 ------
-- Added a menu feature (FHA) for freezing or force closing power-hungry apps with user-defined resource thresholds and app types.
+- Added a menu feature `(FHA)` for freezing or force closing power-hungry apps with user-defined resource thresholds and app types.
 - Users can now choose between freezing or force closing apps, specify a resource usage threshold, and select the type of apps (user, system, or both) to target.
-- The processes are displayed as PID and their numbers before taking action on power-hungry apps.
+- The processes are displayed as `PID` and their numbers before taking action on power-hungry apps.
+------
+- Added a feature to back up the current CPU governor settings when enabling the Ultra Battery Profile.
+- Implemented a governor restoration mechanism to revert to the previous governor settings when turning off the profile.
+- Enhanced governor selection logic to check for the availability of governors and use the most power-efficient one for improved battery backup.
+- Introduced a fallback to a general governor when the device does not support the selected governors.
+- Implemented comprehensive logging of all profile-related actions in the "Ultra Battery Profile Debug Log" located inside the main module path for improved debugging and user visibility.
+- Enhanced DVFS management when enabling the profile, preventing dynamic changes to CPU frequencies and governors to maximize power efficiency during Ultra Battery mode.
+- Changed Main Menu Layout for a better readability.
+------
+# Reworked
+### 1. Added Battery Saver Mode Toggle:
+- Users can now enable or disable Battery Saver Mode.
+- The current state of Battery Saver Mode is displayed before toggling.
+
+### 2. Added Force-Doze Toggle:
+- Users can now enable or disable Force-Doze.
+- The current state of Force-Doze is displayed before toggling.
+
+### 3. Added Screen Timeout Adjustment:
+- Users can adjust the screen timeout to their preference.
+- The current screen timeout value is displayed before adjusting.
+
+### 4. Added Adaptive Brightness Toggle:
+- Users can now enable or disable Adaptive Brightness.
+- The current state of Adaptive Brightness is displayed before toggling.
+
+### 5. Added Wakelock Timeout Adjustment:
+- Users can adjust the Wakelock timeout to their preference.
+- The current Wakelock timeout value is displayed before adjusting.
+
+### 6. Added Auto-Sync Toggle:
+- Users can now enable or disable Auto-Sync.
+- The current state of Auto-Sync is displayed before toggling.
+
+### 7. Added Auto-Sleep Timeout Adjustment:
+- Users can adjust the Auto-Sleep timeout to their preference.
+- The current Auto-Sleep timeout value is displayed before adjusting.
+
+### 8. Added Auto-Sleep Conditions Adjustment:
+- Users can adjust Auto-Sleep conditions when plugged off from the charger.
+- The current Auto-Sleep When Unplugged timeout value is displayed before adjusting.
+
+### 9. Added Display Sleep Timeout Adjustment:
+- Users can adjust the display sleep timeout to their preference.
+- The current display sleep timeout value is displayed before adjusting.
+
+### 10. Added Wake on Charge Toggle:
+- Users can now enable or disable Wake on Charge.
+- The current state of Wake on Charge is displayed before toggling.
+
+### 11. Added WiFi Scan Interval Adjustment:
+- Users can adjust the WiFi scan interval to their preference.
+- The current WiFi scan interval value is displayed before adjusting.
+
+### 12. Ultra Battery Profile Enhancements:
+- Ultra Battery Profile now supports DVFS prevention.
+- Selects the most suitable CPU governor for power efficiency.
+- Logs changes and actions for better user feedback.
+
+### 13. Various bug fixes and optimizations for better stability and performance.
 ------
 - Complete rework of the battery-saving script
 - Enhanced .log file now neatly stored in module directory
@@ -15,7 +75,7 @@
 - Bid farewell to Miui blur issues; it's out of the mix
 - Fine-tuned the core tweaks for maximum battery gains
 - Added the ability to enable or disable profiles on boot inside the menu
-- Reworked Quick command usage with SUB -h (help) menu
+- Reworked Quick command usage with `SUB -h` ( HELP ) menu
 - Help menu now Provide device information for easy troubleshooting
 - Many bugs squashed, and overall improvements aplenty
 - Brand new battery optimizations unleashed
@@ -27,137 +87,18 @@
 - Intuitive auto-sync based on usage patterns
 - Streamlined auto-sleep timeout settings
 - Dynamic display sleep timeout adjustment
-- Ready to flash with a rejuvenated spirit ⚡️
+- Ready to flash with a rejuvenated spirit ⚡
 ------
-### v2.1 - The Revamp!
-- Power-saving mode for extending battery life
-- Optimized WiFi scan intervals for efficiency
-- Enhanced overall stability and performance
-- Comprehensive user guide for easy reference
+### `v2.2` Main Changes (Ultra Battery Profile)
+- Optimized CPU performance for better battery life.
+- Enhanced memory management for improved efficiency.
+- Reduced background processes to minimize resource usage.
+- Streamlined system processes to conserve battery.
+- Fine-tuned I/O scheduler settings for power efficiency.
+- Improved network settings for reduced power consumption.
+- Enhanced GPU management for lower energy usage.
+- Tweaked kernel parameters to maximize battery backup.
+- Reduced system log generation for lower CPU usage.
+- Implemented idle preferences for system responsiveness.
+- Enhanced background task handling for improved efficiency.
 ------
-## v2.0 - Long Awaited !
-
-Because your battery deserves the 'ULTRA' treatment... with a side of giggles!
-
-- Battery menu: ULTRA BATTERY profile, GApps control
-- CPU governor adjustment
-- Screen timeout customization
-- Adaptive brightness toggle
-- Wakelock timeout adjustment
-- Auto-sync enable/disable
-- Auto-sleep timeout adjustment
-- Auto-sleep PPO timeout modification
-- Display sleep timeout adjustment
-- Wake on charge toggle
-- WiFi scan interval adjustment
-- Improved UI, informative messages
-- Bug fixes, performance improvements
-- New: Battery optimization suggestions
-- Enhanced battery menu layout
-- Customizable presets for screen timeout
-- Ambient light-based automatic brightness toggle
-- Advanced CPU governor settings
-- Optimized wakelock management
-- Smart auto-sync based on usage patterns
-- Streamlined auto-sleep timeout settings
-- Dynamic display sleep timeout adjustment
-- Power-saving mode for maximum battery life
-- Optimized WiFi scan interval
-- Improved stability, overall performance
-- Comprehensive user guide included
----------
-# v1.2 Stable Build
-- Completly reworked Battery Saving Script
-- Reworked .log file stored inside /sdcard/Android/
-- Many new usefull Powersaving related Tweaks added & reworked
-- Removed Miui blur enabler due to issues on miui devices
-- Adjusted main tweaks to get most out of your Battery
-- Many bugs fixed and Improvments made
-- Happy Flashing ⚡️
--------
-# UPDATE v1.1 (115)
-- Fixed / added back miui Blur!
-------
-# Update v1.1 (110)
-- Fixed GPS Issue (Gps no more worked)
-- Fixed Google Play issue (GPlay no more worked)
-- Fixed GPay issue (GPay no more worked)
-- Fixed Carrier Network issue on some roms
-- Enabled Dalv. hyper & multi
-- Changed wifi scan interval to 10min.
-- Removed smoother Scrolling since its useless on battery mode.
-- Disabling Logcat
-- Enabling Quickpower on (not working on every rom)
-- Disable Auto Error Report and Profiler
-- Renice system related processes before enabling tweaks
-- Fixed FSTrim (typo in code, never mentioned lol)
-- Clean RAM before enabling Profile
-- Several bugs fixed and Improvments made
--------
-# Update v1.0 Stable
-- Changed serveral Tweaks for better Battery backup
-- Added serveral doze features Applying at boot
-- changed some tweaks for better stability and without loosing ui smoothness
-- now u get a smooth ui with a good battery backup
-- added several new props tested by myself help last battery longer without losing much performance
-- it is recommended changin refresh rate to 60hz to get most out of the module
-- sure u can take refresh rate higher this wont make a problem, but u battery will drain faster
-------
-# Update v0.7 HOTFIX
-- Fixed Enable & Disable GAPPS Script now working!
-- Added new experimental Notification Message for GAPPS Enable & Disable Script.
-- Completely Reworked BAT Script..
-- Removed GAPPS - Added 2 Scripts to Disable or Enable GAPPS Manually!
-- su -c DGAPPS > Disable GAPPS!
-- su -c EGAPPS > Enable GAPPS!
-- Reworked All Props to avoid device getting Hot 🔥 
-- Changed CPU Min. & Max. Freq!
-- i/o scheduler tweaks adjusted
-- last 4 cpus going offline after reaching lower then 20% battery.
-- Enabled Core Control (core_ctl)
-- removed nr requests on i/o tweaks (not working on most devices..)
-- gov changed to sched. 
-- changed up and down rate limit.
-- minor fixes and adjustments
---------
-# Update v0.6 HOTFIX
-- Script not Executed Correctly / Fixed
--------
-# Update 0.6
-- Removed persist.sys.ui.hw
-- Minor changes into system.prop
-- Removed cpu stuff in Service.sh & implemented into Script file.
-- Fixed conflicting props from STRP Family.
-- Fixed MIUI Blur Effect.
-- Added some extra usefull battery saving misc props.
--------
-# Update 0.5
-- Removed some Gapps related stuff what arent necessary.
-- Reworked BAT Script >>
-- Changed Gov. From Powersave > Schedutil
-- Dynamic Stune Boost > 10
-- Schedstats > 0
-- Sched tun. scal. > 0
-- Changed cpu min. & max freq.
-- Added Force Fast Charge.
-- Some other things changed .. most people don't read that either so ..
-- I know last version was a bit laggy but hey ..
-- It was a Prebuild .. I promise 0.5 has a huge difference.
--------
-# Update 0.4
-- Added Script to Manually Re-Enable GAPPS!
-- Use 'su -c EGAPPS' To Re-Enable Gapps after Boot if u face Problems from it.
-- Many adjustments made since test build.
-- minor bug fixed from executing.
---------
-# Test Build 0.3
-- Added a Bunch of Tweaks they Work together.
-- To get the Best Battery Capacity and Durability.
---------
-## IMPORTANT
-- Dont Use this Module with ..
-- Stratosphere - GSM- Magnetar - and many more ...
-- Remove Any other Kernel Tweaker u have bevore flashing or using this one!
-- I am not Responsible for ur dumbness!
-- Focused On Maximizing Battery Backup!
---------
