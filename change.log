@@ -18,6 +18,11 @@
 - Fallback to a general governor when specific governors are unavailable.
 - Comprehensive logging in "Ultra Battery Profile Debug Log."
 
+### New Features:
+- Added a module information notification displayed after boot.
+- The module information notification provides details about module commands, usage, and developer information.
+- An additional notification with extra information can be shown as well.
+
 #### Dynamic Voltage and Frequency Scaling (DVFS) Prevention:
 - Prevents dynamic changes to CPU frequencies and governors during Ultra Battery mode.
 - Maximizes power efficiency by locking CPU settings.
@@ -91,3 +96,7 @@
 - Implemented idle preferences for system responsiveness.
 - Enhanced background task handling for improved efficiency.
 - Periodically checks and manages the log file to prevent excessive growth.
+- Enhanced user experience by providing clear instructions and information.
+- Users can now access important module details directly from the notification.
+- Improved user engagement by displaying developer and community information.
+------
