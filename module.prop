@@ -1,9 +1,8 @@
 id=STRPxULTRAxBATTERY
 name=STRP × ULTRA × BATTERY
 author=CRANKV2
-version=v1.1
-versionCode=115
-description=Increase Battery Life By 40% With Compromising Not More Than 25% Of Overall Performance! | su -c DGAPPS > Disable GAPPS | su -c EGAPPS > Enable GAPPS
+version=v2.2
+versionCode=2222
+description=Unlock the full potential of your device's battery life with STRP x ULTRA BATTERY Incl. MENU & PROFILE 🔋| Use 'su -c SUB' to access features like battery saver, force doze, screen timeout & many more. Try it Now !
 support=https://t.me/AndroidRootModulesCommunity
 minMagisk=20300
-updateJson=https://raw.githubusercontent.com/CRANKV2/STRPxULTRAxBATTERY/main/module.json
