@@ -9,6 +9,7 @@
 
 ## Table of Contents
 
+- [Changelog](change.log)
 - [Overview](#overview)
 - [Features](#features)
 - [Installation](#installation)
