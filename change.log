@@ -1,3 +1,17 @@
+## Hotfix v2.2 - Fine-Tuning and Fixes
+
+### CPU Governor and Tweaks
+- Switched to schedutil governor for better stability and improved CPU frequency management.
+- Fixed issue with powersave governor.
+- Adjusted several tweaks in the main profile for enhanced performance.
+
+### General
+- Various minor bug fixes and optimizations.
+
+Upgrade now to experience smoother and more stable performance on your device!
+
+#STRPxULTRAxBATTERY #Hotfix #PerformanceBoost
+------
 ## `v2.2` - Power Unleashed!
 
 #### Battery Management:
