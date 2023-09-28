@@ -1,3 +1,34 @@
+## Changelog for (v2.3)
+
+### Performance Enhancements
+- Improved resource management for better responsiveness.
+- Optimized CPU usage for smoother performance.
+- Streamlined background processes for reduced resource consumption.
+- Enhanced memory management for improved efficiency.
+
+### Compatibility Improvements
+- Fine-tuned module compatibility with various Android versions.
+- Improved stability on a wider range of device models.
+- Enhanced network settings for better compatibility with different networks.
+- Adjusted kernel parameters for improved compatibility.
+
+### New Feature: `App Hibernation Toggle`
+- Introducing the `App Hibernation` toggle in the main menu.
+- Easily enable or disable `App Hibernation` to conserve battery.
+- `App Hibernation` helps you save battery by suspending power-hungry apps.
+- Take control of your device's performance with this new feature.
+
+### Bug Fixes and Tweaks
+- Resolved minor UI glitches for a polished user experience.
+- Fixed a rare issue causing temporary module unresponsiveness.
+- Tweaked I/O scheduler settings for improved file access.
+- General bug fixes and performance optimizations.
+
+### Thank you!
+Thank you for being part of our community! Your support is appreciated. If you have any questions or feedback, don't hesitate to share them with us.
+
+Stay tuned for more updates! 🚀
+------
 ## `v2.2` - Power Unleashed!
 
 #### Battery Management:
