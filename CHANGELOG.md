@@ -1,7 +1,4 @@
 ## Version 2.4 Changelog
-
-# [Unreleased]
-
 ### New Features:
 - **Screen Status Handler Enhancement:**
   - Added the ability to enable or disable the Screen Status Handler feature from the config file.
@@ -23,6 +20,10 @@
 #### Enhanced
 - Improved script efficiency by combining multiple functionalities into a single loop.
 
+#### Changed
+- Improved screen status detection by checking display state instead of brightness.
+  - This change addresses an issue where the script now accurately determines the screen's on/off state.
+- Special thanks to [@fashl1](https://t.me/fashl1) for reporting the issue.
 
 ### Bug Fixes and Optimizations:
 - Improved script performance and stability.
