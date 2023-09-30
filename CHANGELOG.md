@@ -11,11 +11,13 @@
   - Users can choose when to apply specific settings, giving them more control over their device's performance and power management.
 
 #### Added
-- Merged the following scripts into one:
+- Merged the following scripts into one `SUB_Daemon`:
   - `cpu_gov_lock_screen_handler`: Controls CPU governors based on screen lock status.
   - `cpu_freq_on_lock_handler`: Manages CPU frequencies when the screen is locked or unlocked.
   - `data_wifi_on_lock_handler`: Controls mobile data and Wi-Fi when the screen is locked or unlocked.
   - `screen_off_profile_handler`: Handles screen status and profiles.
+  - `auto_sub`:
+Handles Battery saver Profile depending on Screen State
 
 #### Enhanced
 - Improved script efficiency by combining multiple functionalities into a single loop.
