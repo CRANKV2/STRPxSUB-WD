@@ -1,4 +1,6 @@
 ## Version 2.4 Changelog
+# [ UNRELEASED ]
+
 ### New Features:
 - **Screen Status Handler Enhancement:**
   - Added the ability to enable or disable the Screen Status Handler feature from the config file.
