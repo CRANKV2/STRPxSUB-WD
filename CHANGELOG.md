@@ -1,7 +1,9 @@
 ## Version 2.4 Changelog
-# [ UNRELEASED ]
 
-### New Features:
+### [UNRELEASED]
+
+#### New Features:
+
 - **Screen Status Handler Enhancement:**
   - Added the ability to enable or disable the Screen Status Handler feature from the config file.
   - When set to '1', the script will automatically enable the profile when the screen is off and disable it when the screen is on.
@@ -12,24 +14,28 @@
   - Every menu option in the script can now be configured to apply changes either immediately or after a device reboot.
   - Users can choose when to apply specific settings, giving them more control over their device's performance and power management.
 
-#### Added
+#### Added:
+
 - Merged the following scripts into one `SUB_Daemon`:
   - `cpu_gov_lock_screen_handler`: Controls CPU governors based on screen lock status.
   - `cpu_freq_on_lock_handler`: Manages CPU frequencies when the screen is locked or unlocked.
   - `data_wifi_on_lock_handler`: Controls mobile data and Wi-Fi when the screen is locked or unlocked.
   - `screen_off_profile_handler`: Handles screen status and profiles.
   - `auto_sub`:
-Handles SUB Battery Profile if device battery goes bellow 20%
+    Handles SUB Battery Profile if the device's battery goes below 20%.
 
-#### Enhanced
+#### Enhanced:
+
 - Improved script efficiency by combining multiple functionalities into a single loop.
 
-#### Changed
+#### Changed:
+
 - Improved screen status detection by checking display state instead of brightness.
   - This change addresses an issue where the script now accurately determines the screen's on/off state.
 - Special thanks to [@fashl1](https://t.me/fashl1) for reporting the issue.
 
-### Bug Fixes and Optimizations:
+#### Bug Fixes and Optimizations:
+
 - Improved script performance and stability.
 - Resolved minor issues reported by users.
 
