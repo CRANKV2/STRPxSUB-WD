@@ -19,7 +19,7 @@
   - `data_wifi_on_lock_handler`: Controls mobile data and Wi-Fi when the screen is locked or unlocked.
   - `screen_off_profile_handler`: Handles screen status and profiles.
   - `auto_sub`:
-Handles Battery saver Profile depending on Screen State
+Handles SUB Battery Profile if device battery goes bellow 20%
 
 #### Enhanced
 - Improved script efficiency by combining multiple functionalities into a single loop.
