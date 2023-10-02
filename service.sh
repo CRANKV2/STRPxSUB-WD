@@ -27,11 +27,10 @@ setprop persist.strp.sub.battery 0
 #run handler
 #LOGS = /data/adb/modules/STRPxULTRAxBATTERY
 sleep 5
-cpu_gov_lock_screen_handler &
-cpu_freq_on_lock_handler &
-data_wifi_on_lock_handler &
-auto_sub &
-module_infos_shell &
+
+SUB_Daemon &
+MIS &
+SUB_Settings &
 
 sleep 5
 am start -a android.intent.action.MAIN -e toasttext "𝙎𝙏𝙍𝙋 𝙎𝙐𝘽 𝙎𝙘𝙧𝙞𝙥𝙩𝙨 𝘾𝙤𝙢𝙥𝙡𝙚𝙩𝙚𝙡𝙮 𝙇𝙤𝙖𝙙𝙚𝙙! 𝙀𝙣𝙟𝙤𝙮!" -n bellavita.toast/.MainActivity
