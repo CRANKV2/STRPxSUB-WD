@@ -41,6 +41,8 @@
   - `screen_off_profile_handler`: Handles screen status and profiles.
   - `auto_sub`:
     Handles SUB Battery Profile if the device's battery goes below 20%.
+- Introduced the `apply_settings` function for consistent management of settings changes.
+- Added validation to check for `-1` values in configuration, ensuring no action is taken for such values.
 
 #### Enhanced
 - Improved script efficiency by combining multiple functionalities into a single loop.
