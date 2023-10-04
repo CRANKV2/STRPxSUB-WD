@@ -50,7 +50,16 @@
   - `screen_off_profile_handler`: Handles screen status and profiles.
   - `auto_sub`:
     Handles SUB Battery Profile if the device's battery goes below 20%.
-    - Users can configure the sleep timer for each function in the `.config` file to suit their preferences.
+
+- **Sleep Timers for Customization**:
+   - Users can now configure sleep timers for each SUB_Daemon function individually through the `.config` file, allowing them to control how often each function checks for conditions.
+
+ - **Improved Battery Checker**:
+   - Enhanced the battery checker code within the SUB_Daemon to check the current status of the battery profile (enabled or disabled) before taking any actions. This prevents constant enabling/disabling of the profile when the battery is under 20%.
+
+- **Screen Handler as a Separate Function**:
+   - The screen handler functionality has been separated into its own SUB_Daemon function, just like the other features. Users can choose to enable or disable this function using the configuration file.
+   - Added a customizable sleep timer for the Screen Handler function to allow users to set how often it checks for screen status changes.
 
 #### Enhanced
 - Improved script efficiency by combining multiple functionalities into a single loop.
