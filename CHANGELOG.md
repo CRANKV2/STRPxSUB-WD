@@ -12,7 +12,9 @@
 - [Changed](#changed)
 - [Removed](#removed)
 - [Fixed](#fixed)
+- [Support for MIUI](#support-for-miui)
 - [Bug Fixes and Optimizations](#bug-fixes-and-optimizations)
+- [Testers](#testers)
 
 #### Screen Status Handler Enhancement
 - Added the ability to enable or disable the Screen Status Handler feature from the config file.
@@ -29,9 +31,15 @@
 - A log file is now created at `/data/adb/modules/STRPxULTRAxBATTERY/SUB_Daemon.log`.
 - Log actions and messages are recorded in the log file.
 - Log size is checked and truncated if it exceeds 1MB (1048576 bytes).
+- The log now indicates whether the script is running on Android OS or MIUI OS.
+- Additionally, a `settings.log` file is created, logging changes made to `settings.conf` after a reboot based on user choices from the main menu.
 
 #### Battery Check Function
 - Added a battery check function to monitor battery status and take appropriate actions.
+
+#### Support for MIUI
+- Introduced support for MIUI-based devices.
+- The script now detects whether the device is running MIUI and adjusts settings accordingly.
 
 #### Added
 - Merged the following scripts into one `SUB_Daemon`:
@@ -41,8 +49,6 @@
   - `screen_off_profile_handler`: Handles screen status and profiles.
   - `auto_sub`:
     Handles SUB Battery Profile if the device's battery goes below 20%.
-- Introduced the `apply_settings` function for consistent management of settings changes.
-- Added validation to check for `-1` values in configuration, ensuring no action is taken for such values.
 
 #### Enhanced
 - Improved script efficiency by combining multiple functionalities into a single loop.
@@ -65,4 +71,10 @@
 - Improved script performance and stability.
 - Resolved minor issues reported by users.
 
+#### Testers
+- Big thanks to...
+- [@Lassmichdanke](https://t.me/Lassmichdanke)
+- [@r15unygm4047](https://t.me/r15unygm4047)
+
 Thank you for your continued support, and we hope you enjoy the enhanced features and flexibility in version 2.4!
+------
