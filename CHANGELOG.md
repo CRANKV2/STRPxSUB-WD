@@ -21,6 +21,7 @@
 - When set to '1', the script will automatically enable the profile when the screen is off and disable it when the screen is on.
 - When set to '0', the script is effectively paused, and no automatic actions will be taken.
 - This provides greater control and flexibility for users to manage the script's behavior.
+- Users can also configure a custom sleep timer for the Screen Handler function in the `.config` file.
 
 #### Menu Options Customization
 - Every menu option in the script can now be configured to apply changes either immediately or after a device reboot.
@@ -49,6 +50,7 @@
   - `screen_off_profile_handler`: Handles screen status and profiles.
   - `auto_sub`:
     Handles SUB Battery Profile if the device's battery goes below 20%.
+    - Users can configure the sleep timer for each function in the `.config` file to suit their preferences.
 
 #### Enhanced
 - Improved script efficiency by combining multiple functionalities into a single loop.
