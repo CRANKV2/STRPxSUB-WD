@@ -1,4 +1,4 @@
-## Version 2.4 Changelog
+## Version 2.5 Changelog
 
 ### [UNRELEASED]
 
@@ -87,5 +87,5 @@
 - [@Lassmichdanke](https://t.me/Lassmichdanke)
 - [@r15unygm4047](https://t.me/r15unygm4047)
 
-Thank you for your continued support, and we hope you enjoy the enhanced features and flexibility in version 2.4!
+Thank you for your continued support, and we hope you enjoy the enhanced features and flexibility in version 2.5!
 ------
