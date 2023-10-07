@@ -1,8 +1,8 @@
 id=STRPxULTRAxBATTERY
-name=STRP × ULTRA × BATTERY
-author=CRANKV2
-version=v2.3
-versionCode=2300
-description=Unlock the full potential of your device's battery life with STRP x ULTRA BATTERY Incl. MENU & PROFILE 🔋| Use 'su -c SUB' to access features like battery saver, force doze, screen timeout & many more. By STRP
+name=STRP x ULTRA × BATTERY
+author=CRANKV2 | STRP x UNIVERSE
+version=v2.5
+versionCode=2500
+description=Unleash Your Device's True Potential – It's Not Just a Battery Saver, It's a Powerhouse! 🔥 Including Powerful CLI commands 🔋 | Use 'su -c SUB' for the Main Menu or 'su -c SUB -h' to access Help Menu to to see Powerfull Commands! | Powered By STRP
 support=https://t.me/AndroidRootModulesCommunity
 minMagisk=20300

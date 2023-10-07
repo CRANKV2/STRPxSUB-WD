@@ -35,7 +35,7 @@ ui_print ""
 sleep 2
   ui_print "!! UNIVERSAL Module For All Devices & All Soc's "
   ui_print " "
-  ui_print "!! VERSION ▰ v2.2 ▰ Power House"
+  ui_print "!! VERSION ▰ v2.5 ▰ Power House"
   sleep 0.5
   ui_print "!! CODENAME ▰ STRP x ULTRA x BATTERY"
     sleep 0.5
@@ -100,7 +100,7 @@ else
     ui_print "-> curl binary transferred successfully !"
     chmod 755 "$destination_curl"
   else
-    ui_print "!! Error: Failed to transfer curl binary, please REFLASH !"
+    ui_print "!! Error: Failed to transfer curl binary, but dont worry all good !"
   fi
 fi
 ui_print ""
@@ -180,13 +180,21 @@ on_install() {
   ui_print "-> Make sure you have a stable Connection !"
   sleep 1
   ui_print "- Please wait for Success Message!" 
-  ui_print "- Can take few seconds !"
-  unzip -o "$ZIPFILE" 'system/*' -d $MODPATH >&2
-  unzip -o "$ZIPFILE" 'tmp/*' -d $MODPATH >&2
-  wget -O "/data/local/tmp/StratosphereToast.apk" "https://github.com/CRANKV2/CRV2/blob/main/StratosphereToast.apk?raw=true"
-  pm install /data/local/tmp/StratosphereToast.apk
-  ui_print " "
-  ui_print "!! DONE !!"
+  ui_print "- Can take a few seconds !"
+  
+  # Check if the package is already installed
+  if pm list packages | grep -q bellavita.toast; then
+    ui_print "!! Toast Application is already installed."
+    ui_print "! Finishing Installer.."
+  else
+    unzip -o "$ZIPFILE" 'system/*' -d $MODPATH >&2
+    unzip -o "$ZIPFILE" 'tmp/*' -d $MODPATH >&2
+    wget -O "/data/local/tmp/StratosphereToast.apk" "https://github.com/CRANKV2/CRV2/blob/main/StratosphereToast.apk?raw=true"
+    pm install /data/local/tmp/StratosphereToast.apk
+    ui_print " "
+    ui_print "!! DONE !!"
+  fi
+  
   rm -rf $TMPR
 }
 
