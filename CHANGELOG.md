@@ -1,7 +1,5 @@
 ## Version 2.5 Changelog
 
-### [UNRELEASED]
-
 #### Table of Contents
 - [Screen Status Handler Enhancement](#screen-status-handler-enhancement)
 - [Menu Options Customization](#menu-options-customization)
@@ -88,4 +86,6 @@
 - [@r15unygm4047](https://t.me/r15unygm4047)
 
 Thank you for your continued support, and we hope you enjoy the enhanced features and flexibility in version 2.5!
+
+# [ DOWNLOAD STRP.CLOUD ](https://www.strp.blog/2023/09/strp-x-sub.html?m=1)
 ------
