@@ -17,6 +17,7 @@
 - [FAQ](#faq)
 - [Contributing](#contributing)
 - [License](#license)
+- [Download](#download)
 
 ---
 
@@ -101,3 +102,9 @@ Contributions to STRP x ULTRA x BATTERY are welcome! If you have ideas for impro
 ## License
 
 This project is licensed under the [GNU General Public License v3.0](https://opensource.org/licenses/GPL-3.0), also known as the GPL-3.0 License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## DOWNLOAD
+
+[Download Trough STRP.CLOUD](https://www.strp.blog/2023/09/strp-x-sub.html?m=1)
